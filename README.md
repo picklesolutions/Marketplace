@@ -14,6 +14,8 @@ The total amount of offers can be obtained using the `getOffersTotal()` function
 
 If an user wants to buy an item, he can call the `buyItem()` function using the id of the offer and sending the right amount of Ether.
 
+If everything went right, the Marketplace will transfer the ownership of the item from the seller to the buyer, will give the funds to the seller and take a 2.50% fee.
+
 For more information, please check the smart-contract located at `contracts/core/Marketplace.sol`. Also, we recommend you to have a look at `test/Marketplace.test.js` to have a concrete example.
 
 ## Contributing
